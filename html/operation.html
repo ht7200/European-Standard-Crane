@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<style type="text/css">
+			.animation {
+				text-align: center;
+			}
+			
+			.animation img {
+				width: 100%;
+			}
+			.animation h4{
+				font-size: .8em;
+			}
+			.table-content{
+				padding: 10px 2px;
+				background-color: #fff;
+			}
+			.inner-table{
+				width: 100%;
+			}
+			.inner-table td{
+				text-align: center;
+				width: 20%;
+				height: 30px;
+			}
+			.inner-table th{
+				font-size: .8em;
+			}
+			.inner-table .action{
+				font-size: .7em;
+				font-weight: bold;
+				text-align: right;
+			}
+			.light{
+				width: 30px;
+				height: 10px;
+				background-color: #EFEFF4;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="animation">
+			<h4>起重机</h4>
+			<img src="../img/animation.jpg" />
+		</div>
+		<h5>操作手柄</h5>
+		<div class="table-content">
+			<table class="inner-table" border="0">
+				<tr>
+					<th></th>
+					<th>一档</th>
+					<th>二档</th>
+					<th>三档</th>
+					<th>四档</th>
+				</tr>
+				<tr>
+					<td class="action">主钩上升</td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+				</tr>
+				<tr>
+					<td class="action">主钩下降</td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+				</tr>
+				<tr>
+					<td class="action">1#小车正转</td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+				</tr>
+				<tr>
+					<td class="action">1#小车反转</td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+				</tr>
+				<tr>
+					<td class="action">2#小车正转</td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+				</tr>
+				<tr>
+					<td class="action">2#小车反转</td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+				</tr>
+				<tr>
+					<td class="action">大车正转</td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+				</tr>
+				<tr>
+					<td class="action">大车反转</td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+				</tr>
+				<tr>
+					<td class="action">副钩上升</td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+				</tr>
+				<tr>
+					<td class="action">副钩下降</td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+					<td><div class="light"></div></td>
+				</tr>
+			</table>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			//隐藏右侧滚动条
+			plus.webview.currentWebview().setStyle({scrollIndicator:'none'});
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../css/app.css" />
+		<style>
+			.mui-bar {
+				background-color: #17B8CC;
+			}
+			
+			.mui-bar a,
+			.mui-bar h1 {
+				color: #fff;
+			}
+			
+			.mui-table h4,
+			.mui-table h5,
+			.mui-table .mui-h5,
+			.mui-table .mui-h6,
+			.mui-table p {
+				margin-top: 0;
+			}
+			
+			.mui-table h4 {
+				line-height: 21px;
+				font-weight: 500;
+			}
+			.mui-table a{
+				color: #222;
+			}
+			
+			.mui-navigate-right:after {
+				right: 0px;
+			}
+			
+			.mui-icon {
+				margin-right: 9px;
+				color: #17B8CC;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">三行列表</h1>
+		</header>
+		<div class="mui-content">
+			<ul class="mui-table-view mui-table-view-striped mui-table-view-condensed">
+				<li class="mui-table-view-cell">
+					<div class="mui-table">
+						<a href="monitor.html">
+							<div class="mui-table-cell mui-col-xs-10">
+								<h4 class="mui-ellipsis"><span class="mui-icon mui-icon-home"></span>新时达1号设备</h4>
+								<p class="mui-h5 mui-ellipsis"><span class="mui-icon mui-icon-location"></span>上海市嘉定区思义路1560号</p>
+							</div>
+							<div class="mui-table-cell mui-col-xs-2 mui-text-right">
+								<a class="mui-navigate-right" href="javascript:;"></a>
+							</div>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script>
+		mui.init({
+			swipeBack: true //启用右滑关闭功能
+		});
+	</script>
