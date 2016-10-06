@@ -6,12 +6,82 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/operation.css"/>
 	</head>
 
-	<body>3
+	<body>
+		<div class="animation">
+			<h4>起重机</h4>
+			<img src="../img/animation.jpg" />
+		</div>
+		<h5>主勾</h5>
+		<div class="table-content">
+			<table class="inner-table" border="0">
+				<tr style="background-color: #F9F39F;">
+					<th>起升状态</th>
+					<th></th>
+					<th></th>
+					<th></th>
+				</tr>
+				<tr>
+					<td class="state">控制方式</td>
+					<td class="data">
+						双速电机
+					</td>
+					<td class="state">上限位</td>
+					<td>
+						<div class="light"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="state">运动方向</td>
+					<td class="data">
+						null
+					</td>
+					<td class="state">下限位</td>
+					<td>
+						<div class="light"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="state">离地高度(m)</td>
+					<td class="data">
+						3.57
+					</td>
+					<td class="state">抱闸状态</td>
+					<td>
+						<div class="light"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="state">运行速度</td>
+					<td class="data">
+						null
+					</td>
+					<td class="state">钩载显示(T)</td>
+					<td class="data">
+						null
+					</td>
+				</tr>
+				<tr>
+					<td class="state">变频器状态</td>
+					<td class="data">
+						null
+					</td>
+					<td class="state">故障代码</td>
+					<td class="data">
+						0
+					</td>
+				</tr>
+			</table>
+		</div>
 		<script src="../js/mui.min.js"></script>
 		<script type="text/javascript">
 			mui.init()
+				//隐藏右侧滚动条
+			plus.webview.currentWebview().setStyle({
+				scrollIndicator: 'none'
+			});
 		</script>
 	</body>
 

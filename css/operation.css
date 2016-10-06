@@ -1,0 +1,95 @@
+			h5{
+				margin-left: 2em;
+			}
+			.animation {
+				text-align: center;
+			}
+			
+			.animation img {
+				width: 100%;
+			}
+			
+			.animation h4 {
+				font-size: .8em;
+			}
+			
+			.table-content {
+				padding: 10px 2px;
+				background-color: #fff;
+			}
+			
+			.table-content-left {
+				margin-top: 1px;
+				width: 45%;
+				padding: 10px 2px;
+				float: left;
+				background-color: #fff;
+			}
+			
+			.table-content-right {
+				margin-top: 1px;
+				width: 55%;
+				padding: 10px 2px;
+				float: left;
+				background-color: #fff;
+			}
+			
+			.inner-table {
+				width: 100%;
+			}
+			
+			.inner-table td {
+				text-align: center;
+				width: 20%;
+				height: 30px;
+			}
+			
+			.inner-table th {
+				font-size: .8em;
+			}
+			
+			.inner-table .action {
+				font-size: .7em;
+				font-weight: bold;
+				text-align: right;
+			}
+			
+			.inner-table .jigou {
+				width: 30%;
+				font-size: .7em;
+				font-weight: bold;
+				text-align: center;
+			}
+			
+			.inner-table .state {
+				font-size: .7em;
+				text-align: center;
+			}
+			
+			.data{
+				color: #007aff;
+				font-size: .7em;
+			}
+			
+			.light {
+				width: 30px;
+				height: 10px;
+				background-color: #EFEFF4;
+				margin: 0 auto;
+			}
+			
+			.radius {
+				width: 30px;
+				height: 30px;
+				background-color: #929292;
+				border-radius: 30px;
+				margin: 0 auto;
+			}
+			
+			.red {
+				background-color: #F10020 !important;
+			}
+			
+			.green {
+				background-color: #66F50E !important;
+			}

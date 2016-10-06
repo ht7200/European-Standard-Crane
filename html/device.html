@@ -6,13 +6,80 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/operation.css"/>
 	</head>
 
 	<body>
-		2
+		<div class="animation">
+			<h4>起重机</h4>
+			<img src="../img/animation.jpg" />
+		</div>
+		<h5>设备</h5>
+		<div class="table-content">
+			<table class="inner-table" border="0">
+				<tr style="background-color: #F5D7DF;">
+					<th></th>
+					<th>待机</th>
+					<th>运行</th>
+					<th>故障</th>
+				</tr>
+				<tr>
+					<td class="jigou">整机状态</td>
+					<td>
+						<div class="light"></div>
+					</td>
+					<td>
+						<div class="light"></div>
+					</td>
+					<td>
+						<div class="light"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="jigou">主起升机构</td>
+					<td>
+						<div class="light"></div>
+					</td>
+					<td>
+						<div class="light"></div>
+					</td>
+					<td>
+						<div class="light"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="jigou">小车机构</td>
+					<td>
+						<div class="light"></div>
+					</td>
+					<td>
+						<div class="light"></div>
+					</td>
+					<td>
+						<div class="light"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="jigou">大车机构</td>
+					<td>
+						<div class="light"></div>
+					</td>
+					<td>
+						<div class="light"></div>
+					</td>
+					<td>
+						<div class="light"></div>
+					</td>
+				</tr>
+			</table>
+		</div>
 		<script src="../js/mui.min.js"></script>
 		<script type="text/javascript">
 			mui.init()
+				//隐藏右侧滚动条
+			plus.webview.currentWebview().setStyle({
+				scrollIndicator: 'none'
+			});
 		</script>
 	</body>
 
